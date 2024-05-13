@@ -1,0 +1,48 @@
+.workSection{
+    background-color: #fff0e6;
+    margin-bottom: 50px;
+}
+
+.title{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.subTitle{
+    margin-left: 40px;
+    width: 30%;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.workspaceView{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.workImage{
+    width: 300px;
+    height: 300px;
+}
+
+.container{
+    position: relative;
+}
+
+.topLeft {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 18px;
+    background-color: white;
+    padding: 5px;
+}
+
+.subText{
+    color: #b34700;
+}

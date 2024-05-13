@@ -1,0 +1,263 @@
+.commSection{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.title{
+    width: 60%;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.imageCont{
+    position: relative;
+}
+
+.bottomleft{
+    position: absolute;
+    bottom: 3px;
+    left: 0px;
+    background-color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.images{
+    width: 400px;
+    height: 300px;
+}
+
+.date{
+    color: #694727;
+}
+
+.container1{
+    width: 30%;
+}
+
+.smallText{
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.eventBtn{
+    background-color: #694727;
+    border: 1px #694727 solid;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.musicContainer{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    height: 150px;
+    border: 1px solid #694727;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subContainer{
+    width: 20%;
+    /* border: 1px yellow solid; */
+    height: 100%;
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subContainer1{
+    width: 80%;
+    background-color: #694727;
+    /* border: 1px hotpink solid; */
+    height: 100%;
+}
+
+.musicImage{
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 40;
+}
+
+.icon{
+    width: 50px;
+}
+
+.podTitle{
+    color: white;
+}
+
+.sect1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.sect1 h3{
+    color: white;
+}
+
+.episode{
+    display: flex;
+    justify-content: center;
+}
+
+.arrow{
+    width: 20px;
+    margin: auto;
+}
+
+.episode p{
+    margin: auto;
+    color: white;
+}
+
+.dateTime{
+    margin-left: 20px;
+    color: white;
+}
+
+.buttonContainer{
+    width: 100%;
+    height: 50px;
+    /* border: 1px blue solid; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.seekContainer{
+    width: 20%;
+    /* border: 1px yellow solid; */
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.seekContainer span{
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+}
+
+.volumeContainer{
+    width: 70%;
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.circle{
+    border: 1px white solid;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.seekIcon{
+    width: 20px;
+}
+
+.forward{
+    height: 100%;
+    /* border: 1px powderblue solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.forward img{
+    width: 20px;
+}
+
+.backward{
+    height: 100%;
+    /* border: 1px black solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.backward img{
+    width: 20px;
+}
+
+.trackContainer{
+    width: 65%;
+    height: 100%;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.soundContainer{
+    width: 30%;
+    height: 100%;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /* padding-right: 30px; */
+    /* margin: auto; */
+}
+
+.soundContainer p{
+    color: white;
+    margin-right: 5px;
+}
+
+.soundContainer img{
+    width: 20px;
+}
+
+.soundKnob{
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+}
+
+.soundLine{
+    width: 90%;
+    height: 1px;
+    background-color: white;
+}
+

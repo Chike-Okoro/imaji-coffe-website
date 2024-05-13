@@ -1,0 +1,50 @@
+.eventSection{
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.titleCont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.titleCont h1{
+    font-size: 70px;
+}
+
+.titleCont p{
+    width: 60%;
+    font-weight: 500;
+}
+
+.imageRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.imageCont{
+    position: relative;
+}
+
+.bottomleft{
+    position: absolute;
+    bottom: 3px;
+    left: 0px;
+    background-color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.images{
+    width: 400px;
+    height: 300px;
+}
+
+.date{
+    color: #694727;
+}

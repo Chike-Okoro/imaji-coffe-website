@@ -1,0 +1,47 @@
+.faveSection{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+
+.faveSection1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.faveTitle{
+    font-size: 50px;
+}
+
+.faveBtn{
+    background-color: #694727;
+    border: 1px #694727;
+    color: white;
+    height: fit-content;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.faveSection2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.faveImage{
+    height: 200px;
+    width: 200px;
+}
+
+.subText{
+    font-weight: lighter;
+    color: gray;
+}
+
+.appLink{
+    color: #694727
+}
+

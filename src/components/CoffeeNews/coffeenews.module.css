@@ -1,0 +1,54 @@
+.newsSection{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 20px;
+}
+
+.newsContainer{
+    display: flex;
+    align-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.newsContainer h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imageContainer {
+    position: relative;
+    min-width: 400px;
+    padding-top: 30%; /* 16:9 Aspect Ratio */
+    margin-right: 20px;
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.newsSection button{
+    background-color: white;
+    border: 1px #694727 solid;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #694727;
+    cursor: pointer;
+}
+

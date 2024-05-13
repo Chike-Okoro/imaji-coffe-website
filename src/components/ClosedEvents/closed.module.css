@@ -1,0 +1,63 @@
+.closedSection{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 20px;
+}
+
+.closedSection h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.imageRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.imageCont{
+    position: relative;
+}
+
+.extImageCont{
+    position: relative;
+    
+}
+
+.bottomleft{
+    position: absolute;
+    bottom: 3px;
+    left: 0px;
+    background-color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.images{
+    width: 400px;
+    height: 300px;
+}
+
+.extImages{
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.closedSection button{
+    background-color: white;
+    border: 1px #694727 solid;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #694727;
+    cursor: pointer;
+}
+
+.date{
+    color: #694727;
+}
